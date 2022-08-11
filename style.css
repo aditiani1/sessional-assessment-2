@@ -16,6 +16,7 @@ nav {
 }
 
 
+
 #photo-container{
     display: flex;
     flex-wrap: wrap;
@@ -71,14 +72,12 @@ cursor:pointer;
 .add-image{
     z-index: 10;
     position: fixed;
-    bottom: 10px;
-    margin-left: 46vw;
+    bottom: 60px;
+    right: 10px;
     cursor:pointer;
-    /* border-radius: 50%; */
-    /* background-color: rgb(208, 146, 53); */
 }
 .add-image i{
-    font-size:40px;
+    font-size: 40px;
 }
 
 
@@ -95,8 +94,8 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   .form-popup {
     display: none;
     position: fixed;
-    bottom: 55px;
-    right: 38vw;
+    bottom: 45px;
+    right: 60px;
     border: 3px solid #f1f1f1;
     z-index: 9px ;
     border-radius: 22px;
