@@ -35,3 +35,5 @@ document.querySelector(".add-image").addEventListener('click',()=>{
 function closeForm() {
     document.getElementById("myForm").style.display = "none";
 }
+
+

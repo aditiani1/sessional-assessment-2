@@ -2,12 +2,19 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #9fbabd;
+    background-color: #F6E7CB;
+}
+
+.container{
+    margin-top:-39px;
 }
 
 nav {
     position: fixed;
+    height:85px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;;
 }
+
 
 #photo-container{
     display: flex;
@@ -15,6 +22,10 @@ nav {
     align-items: center;
     justify-content: space-around;
     margin:20px;
+    margin-bottom: 120px;
+}
+footer {
+    margin-top: 50px;
 }
 
 .card {
@@ -39,11 +50,11 @@ nav {
 }
 
 .navbar-brand{
-   margin-left:-67px;
+   margin-left:-68px;
 }
 
 nav div form{
-    margin-right:-50px;
+    margin-right:-15px;
 }
 
 .card{
