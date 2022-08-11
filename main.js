@@ -5,7 +5,7 @@ xhr.onload = () => {
     // console.log(response)
 
     let template = '';
-    for (let i=0; i<response.length; i++) {
+    for (let i=0; i<100; i++) {   //response.length
         template += `
         <div class="card" style="width: 18rem;">
             <img class="card-img-top" src="${response[i].thumbnailUrl}" alt="Card image cap">
@@ -21,7 +21,17 @@ xhr.onload = () => {
 xhr.send();
 
 
+//GO TO TOP BUTTON
 
 document.querySelector(".go-to-top").addEventListener('click', ()=>{
     window.scrollTo(0,0);
 })
+
+//ADD FILE BUTTON 
+
+document.querySelector(".add-image").addEventListener('click',()=>{
+    document.querySelector(".form-popup").style.display = "block";
+})
+function closeForm() {
+    document.getElementById("myForm").style.display = "none";
+}
