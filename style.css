@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #9c9b91;
+    background-color: #9fbabd;
 }
 
 nav {
@@ -142,3 +142,18 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   .form-container .btn:hover, .open-button:hover {
     opacity: 1;
   }
+
+
+  /* FOOTER */
+  .text-white{
+    text-decoration: none;
+  }
+
+/* footer div i {
+    border-radius: 50%;
+} */
+
+.images{
+    overflow-x:scroll;
+    overflow-x:hidden;
+}
