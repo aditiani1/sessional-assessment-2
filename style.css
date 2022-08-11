@@ -12,3 +12,25 @@
    height:71vh;
    margin-bottom: 12px;
 }
+
+.go-to-top{
+    z-index: 10;
+    position: fixed;
+    bottom:10px;
+    right:10px;
+    cursor:pointer;
+    border-radius: 50%;
+    background-color: rgb(208, 146, 53);
+}
+.go-to-top i{
+    font-size: 40px;
+    
+}
+
+.navbar-brand{
+   margin-left:-67px;
+}
+
+nav div form{
+    margin-right:-50px;
+}

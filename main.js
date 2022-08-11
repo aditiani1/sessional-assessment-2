@@ -19,3 +19,9 @@ xhr.onload = () => {
 }
 //4. request sent
 xhr.send();
+
+
+
+document.querySelector(".go-to-top").addEventListener('click', ()=>{
+    window.scrollTo(0,0);
+})
